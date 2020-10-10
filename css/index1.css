@@ -1,0 +1,652 @@
+html {
+  height: 100%; }
+
+body {
+  background-color: #222222;
+  width: 1200px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/*header*/
+#headerbox {
+  background-color: #171719;
+  width: 1200px; }
+
+#headerbox #header {
+  height: 50px;
+  width: 1263px;
+  background-color: #171719;
+  margin: 0 auto;
+  clear: both; }
+
+#headerbox #header img {
+  height: 44px;
+  margin-top: 4px;
+  float: left;
+  position: relative;
+  margin-left: 100px; }
+
+#headerbox #header ul {
+  height: 45px;
+  float: left;
+  position: relative; }
+
+#headerbox #header ul #img a {
+  width: 98px;
+  text-indent: 24px;
+  text-align: left; }
+
+#headerbox #header ul #img img {
+  height: 18px;
+  width: 13px;
+  float: right;
+  position: absolute;
+  top: 30%;
+  left: 36%; }
+
+#headerbox #header ul li {
+  float: left; }
+
+#headerbox #header ul li a {
+  display: block;
+  height: 50px;
+  width: 88px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  color: #adadae;
+  margin-left: 10px; }
+
+#headerbox #header ul #search a {
+  display: block;
+  width: 50px; }
+
+#headerbox #header ul #search img {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 25%;
+  left: 70%; }
+
+#headerbox #header ul #last {
+  width: 150px; }
+
+#headerbox #header ul #last a {
+  display: block;
+  width: 150px;
+  height: 50px;
+  margin-right: 1px;
+  margin-left: 35px;
+  text-align: left;
+  font-size: 14px;
+  background: url(../images/1_07.png) no-repeat;
+  background-size: 22px;
+  background-position: left; }
+
+#topbox {
+  height: 100px;
+  margin: 0 auto;
+  background-color: #eeeeee;
+  clear: both; }
+
+#topbox #top {
+  width: 1263px;
+  height: 100px;
+  margin: 0 auto;
+  clear: both;
+  background-color: #eeeeee; }
+
+#topbox #top img {
+  float: right; }
+
+#banner {
+  overflow: hidden;
+  width: 1263px;
+  height: 800px;
+  position: relative; }
+
+ol {
+  position: absolute;
+  right: 5px;
+  bottom: 5px; }
+
+ol li {
+  float: left;
+  margin-right: 3px;
+  display: inline;
+  cursor: pointer;
+  background: #222222;
+  border: 1px solid #f47500;
+  padding: 2px 6px;
+  color: #cbcbcb;
+  font-family: arial;
+  font-size: 12px; }
+
+.active {
+  padding: 3px 8px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #ffb442;
+  position: relative;
+  bottom: 2px; }
+
+#banner ul li img {
+  width: 100%;
+  height: 800px;
+  float: left; }
+
+.bottom {
+  width: 100%;
+  height: 200px;
+  background-color: #222222; }
+
+.bottom ul a {
+  width: 240px;
+  height: 160px;
+  display: block; }
+
+.bottom ul img {
+  margin-top: 30px;
+  margin-left: 5px; }
+
+#center {
+  background-color: #222222; }
+
+#center #centerleft {
+  width: 592px;
+  height: 967px;
+  float: left; }
+
+#center #centerleft img {
+  margin-left: 32px;
+  margin-bottom: 16px;
+  margin-right: 20px; }
+
+#center #centerright {
+  width: 592px;
+  height: 966px;
+  float: right; }
+
+#center #centerright img {
+  margin-right: 25px;
+  margin-bottom: 16px; }
+
+#center #centerbottom {
+  position: relative;
+  width: 1263px; }
+
+#center #centerbottom img {
+  width: 1263px;
+  height: 400px; }
+
+#center #centerbottom ul {
+  width: 468px;
+  height: 32px;
+  position: absolute;
+  left: 30%;
+  top: 97%;
+  background-color: #222222; }
+
+#center #centerbottom ul li {
+  float: left;
+  width: 152px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 14px;
+  color: #ffffff;
+  margin-right: 4px; }
+
+#list {
+  width: 1263px;
+  height: 1396px;
+  background-color: #222222; }
+
+#list #listtopleft {
+  width: 400px;
+  height: 700px;
+  background-color: #222222;
+  position: relative;
+  margin-left: 10px;
+  float: left; }
+
+#list #listtopleft img:nth-child(1) {
+  width: 221px;
+  height: 23px;
+  margin-top: 60px;
+  margin-left: 10px; }
+
+#list #listtopleft div {
+  width: 400px;
+  height: 380px; }
+
+#list #listtopleft div img:nth-child(1) {
+  width: 380px;
+  height: 340px;
+  margin-top: 37px;
+  clear: both; }
+
+#list #listtopleft div img:nth-child(2) {
+  width: 140px;
+  height: 57px;
+  position: absolute;
+  left: 10px;
+  top: 130px; }
+
+#list #listtopleft h3 {
+  width: 370px;
+  height: 52px;
+  margin: 10px 25px;
+  color: #cbcbcb;
+  font-size: 14px; }
+
+#list #listtopleft #price {
+  width: 106px;
+  height: 29px;
+  float: left;
+  font-size: 24px;
+  color: #ce1125;
+  margin-left: 21px; }
+
+#list #listtopleft #buy {
+  width: 96px;
+  height: 74px; }
+
+#list #listtopleft #buy img {
+  width: 76px;
+  height: 24px;
+  position: absolute;
+  left: 30%;
+  top: 72%; }
+
+#list #listtopleft #gift img {
+  width: 282px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 60px;
+  position: absolute;
+  left: 1%;
+  top: 74%; }
+
+#list #listtopcenter {
+  width: 400px;
+  height: 700px;
+  background-color: #222222;
+  position: relative;
+  margin-left: 40px;
+  float: left; }
+
+#list #listtopcenter img:nth-child(1) {
+  width: 221px;
+  height: 23px;
+  margin-top: 60px;
+  margin-left: 10px; }
+
+#list #listtopcenter div {
+  width: 400px;
+  height: 380px; }
+
+#list #listtopcenter div img:nth-child(1) {
+  width: 380px;
+  height: 340px;
+  margin-top: 37px;
+  clear: both; }
+
+#list #listtopcenter div img:nth-child(2) {
+  width: 140px;
+  height: 57px;
+  position: absolute;
+  left: 10px;
+  top: 130px; }
+
+#list #listtopcenter h3 {
+  width: 370px;
+  height: 52px;
+  margin: 10px 25px;
+  color: #cbcbcb;
+  font-size: 14px; }
+
+#list #listtopcenter #price {
+  width: 106px;
+  height: 29px;
+  float: left;
+  font-size: 24px;
+  color: #ce1125;
+  margin-left: 21px; }
+
+#list #listtopcenter #buy {
+  width: 96px;
+  height: 74px; }
+
+#list #listtopcenter #buy img {
+  width: 76px;
+  height: 24px;
+  position: absolute;
+  left: 30%;
+  top: 72%; }
+
+#list #listtopcenter #gift img {
+  width: 282px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 60px;
+  position: absolute;
+  left: 1%;
+  top: 74%; }
+
+#list #listtopright {
+  width: 400px;
+  height: 700px;
+  background-color: #222222;
+  position: relative;
+  margin-left: 10px;
+  float: right; }
+
+#list #listtopright img:nth-child(1) {
+  width: 221px;
+  height: 23px;
+  margin-top: 60px;
+  margin-left: 10px; }
+
+#list #listtopright div {
+  width: 400px;
+  height: 380px; }
+
+#list #listtopright div img:nth-child(1) {
+  width: 380px;
+  height: 340px;
+  margin-top: 37px;
+  clear: both; }
+
+#list #listtopright div img:nth-child(2) {
+  width: 140px;
+  height: 57px;
+  position: absolute;
+  left: 10px;
+  top: 130px; }
+
+#list #listtopright h3 {
+  width: 370px;
+  height: 52px;
+  margin: 10px 25px;
+  color: #cbcbcb;
+  font-size: 14px; }
+
+#list #listtopright #price {
+  width: 106px;
+  height: 29px;
+  float: left;
+  font-size: 24px;
+  color: #ce1125;
+  margin-left: 21px; }
+
+#list #listtopright #buy {
+  width: 96px;
+  height: 74px; }
+
+#list #listtopright #buy img {
+  width: 76px;
+  height: 24px;
+  position: absolute;
+  left: 30%;
+  top: 72%; }
+
+#list #listtopright #gift img {
+  width: 282px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 60px;
+  position: absolute;
+  left: 1%;
+  top: 74%; }
+
+#list #listbottomleft {
+  width: 400px;
+  height: 600px;
+  background-color: #222222;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 30px;
+  float: left; }
+
+#list #listbottomleft div {
+  width: 400px;
+  height: 380px; }
+
+#list #listbottomleft div img:nth-child(1) {
+  width: 380px;
+  height: 340px;
+  margin-top: 20px;
+  clear: both; }
+
+#list #listbottomleft div img:nth-child(2) {
+  width: 140px;
+  height: 57px;
+  position: absolute;
+  left: 10px;
+  top: 130px; }
+
+#list #listbottomleft h3 {
+  width: 370px;
+  height: 52px;
+  margin: 10px 25px;
+  color: #cbcbcb;
+  font-size: 14px; }
+
+#list #listbottomleft #price {
+  width: 106px;
+  height: 29px;
+  float: left;
+  font-size: 24px;
+  color: #ce1125;
+  margin-left: 21px; }
+
+#list #listbottomleft #buy {
+  width: 96px;
+  height: 74px; }
+
+#list #listbottomleft #buy img {
+  width: 76px;
+  height: 24px;
+  position: absolute;
+  left: 32%;
+  top: 73%; }
+
+#list #listbottomleft #gift img {
+  width: 282px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 60px;
+  position: absolute;
+  left: 1%;
+  top: 74%; }
+
+#list #listbottomcenter {
+  width: 400px;
+  height: 600px;
+  background-color: #222222;
+  position: relative;
+  margin-left: 10px;
+  float: left; }
+
+#list #listbottomcenter img:nth-child(1) {
+  width: 221px;
+  height: 23px;
+  margin-left: 50px; }
+
+#list #listbottomcenter div {
+  width: 400px;
+  height: 380px; }
+
+#list #listbottomcenter div img:nth-child(1) {
+  width: 380px;
+  height: 340px;
+  margin-top: 27px;
+  margin-left: 20px;
+  clear: both; }
+
+#list #listbottomcenter div img:nth-child(2) {
+  width: 140px;
+  height: 57px;
+  position: absolute;
+  left: 10px;
+  top: 130px; }
+
+#list #listbottomcenter h3 {
+  width: 370px;
+  height: 52px;
+  margin: 10px 25px;
+  color: #cbcbcb;
+  font-size: 14px; }
+
+#list #listbottomcenter #price {
+  width: 106px;
+  height: 29px;
+  float: left;
+  font-size: 24px;
+  color: #ce1125;
+  margin-left: 21px; }
+
+#list #listbottomcenter #buy {
+  width: 96px;
+  height: 74px; }
+
+#list #listbottomcenter #buy img {
+  width: 76px;
+  height: 24px;
+  position: absolute;
+  left: 28%;
+  top: 76%; }
+
+#list #listbottomcenter #gift img {
+  width: 282px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 60px;
+  position: absolute;
+  left: 1%;
+  top: 79%; }
+
+#list #listbottomright {
+  width: 400px;
+  height: 600px;
+  background-color: #222222;
+  position: relative;
+  margin-left: 10px;
+  float: left; }
+
+#list #listbottomright div {
+  width: 400px;
+  height: 380px; }
+
+#list #listbottomright div img:nth-child(1) {
+  width: 380px;
+  height: 340px;
+  margin-top: 37px;
+  clear: both; }
+
+#list #listbottomright div img:nth-child(2) {
+  width: 140px;
+  height: 57px;
+  position: absolute;
+  left: 10px;
+  top: 130px; }
+
+#list #listbottomright h3 {
+  width: 370px;
+  height: 52px;
+  margin: 10px 25px;
+  color: #cbcbcb;
+  font-size: 14px; }
+
+#list #listbottomright #price {
+  width: 106px;
+  height: 29px;
+  float: left;
+  font-size: 24px;
+  color: #ce1125;
+  margin-left: 21px;
+  margin-top: 25px; }
+
+#list #listbottomright #buy {
+  width: 96px;
+  height: 74px; }
+
+#list #listbottomright #buy img {
+  width: 76px;
+  height: 24px;
+  position: absolute;
+  left: 30%;
+  top: 74%; }
+
+#list #listbottomright #gift img {
+  width: 282px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 60px;
+  position: absolute;
+  left: 1%;
+  top: 79%; }
+
+#bottomtop img {
+  width: 1263px; }
+
+#bottomcenter {
+  width: 1263px;
+  height: 45px;
+  background: #EEEEEE;
+  clear: both; }
+
+#bottomcenter ul {
+  padding: 0 15px;
+  margin-left: 15px; }
+
+#bottomcenter ul li {
+  float: left;
+  padding: 12px 10px 12px 0; }
+
+#bottomcenter ul li a {
+  font-size: 14px;
+  color: #444444; }
+
+#bottomcenter ul #lastli {
+  float: right;
+  margin-right: 30px; }
+
+#bottommenu {
+  width: 1263px;
+  height: 32px;
+  background: #222222;
+  clear: both; }
+
+#bottommenu ul {
+  padding: 0 15px;
+  margin-left: 15px; }
+
+#bottommenu ul li {
+  float: left;
+  padding: 2px 7px; }
+
+#bottommenu ul li a {
+  font-size: 12px;
+  color: #cbcbcb; }
+
+#footerbox {
+  width: 1263px;
+  height: 182px;
+  background-color: #222222; }
+
+#footerbox #footer {
+  width: 1170px;
+  height: 152px;
+  font-size: 12px;
+  color: #cbcbcb;
+  margin-left: 30px; }
+
+#footerbox #footer p {
+  font-size: 12px;
+  color: #cbcbcb;
+  text-align: center;
+  margin-top: 5px; }
